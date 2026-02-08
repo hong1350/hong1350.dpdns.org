@@ -1,5 +1,8 @@
+import { homepage } from "./scripts/homepage.js"
+
 export default {
   async fetch(request, env) {
-    return new Response("测试")
+    var needToResponse = homepage()
+    return new Response(needToResponse)
   }
 }
