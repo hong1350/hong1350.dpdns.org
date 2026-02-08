@@ -1,5 +1,5 @@
 export { homepage }
 
 function homepage() {
-    return new Response("网站施工中……")
+    return "网站施工中……"
 }
