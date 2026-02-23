@@ -2,7 +2,12 @@ import { homepage } from "./scripts/homepage.js"
 
 export default {
   async fetch(request, env) {
-    var needToResponse = homepage()
-    return new Response(needToResponse)
+    try {
+      var needToResponse = homepage();
+      const headers = {"Content-Type": "text/html"};
+      return new Response(needToResponse);
+    } catch {
+      return new Response("发生错误！");
+    }
   }
 }
