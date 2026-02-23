@@ -5,7 +5,7 @@ export default {
     try {
       var needToResponse = homepage();
       const headers = {"Content-Type": "text/html"};
-      return new Response(needToResponse);
+      return new Response(needToResponse, {headers});
     } catch {
       return new Response("发生错误！");
     }
