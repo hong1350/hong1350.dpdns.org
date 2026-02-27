@@ -2,7 +2,7 @@ export { homepage }
 
 function homepage() {
   // 哦吼吼！终于实现了！
-  return `
+  var HTMLContent = `
 <html>
   <head>
     <meta charset="UTF-8">
@@ -19,5 +19,6 @@ function homepage() {
     </form>
   </body>
 </html>
-`
+`;
+  return HTMLContent
 }
