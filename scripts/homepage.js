@@ -10,7 +10,8 @@ function homepage() {
   </head>
   <body>
     <h1>什么也没有</h1>
-    敬请期待……
+    敬请期待……（正在因为加密问题而左右脑互搏）
+    <br>
     （往下面闲的没事装个人机验证试试）
     <form method="POST">
       <div class="h-captcha" data-sitekey="4378b196-a7fc-4742-bf06-1dee4ebebc3e"></div>
