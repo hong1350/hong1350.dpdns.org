@@ -18,6 +18,10 @@ function homepage() {
       <script src="https://js.hcaptcha.com/1/api.js" async defer>
       </script>
     </form>
+    <br>
+    <b>陈子鸣</b>你还我满分……
+    <br>
+    <b>Chen Ziming</b>, send back my full mark......
   </body>
 </html>
 `;
